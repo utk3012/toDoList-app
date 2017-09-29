@@ -1,0 +1,10 @@
+<form class="form-inline" (ngSubmit)="onAdd(f)" #f="ngForm" style="margin-left: 22vw">
+  <div class="form-group">
+        <input type="text" class="form-control" placeholder="Title" name="title" ngModel required>
+  </div>
+  <div class="form-group mx-sm-3">
+    <input type="text" class="form-control" placeholder="Description" ngModel name="desc">
+  </div>
+      <button class="btn btn-success">Add item</button>
+</form>
+<br>
